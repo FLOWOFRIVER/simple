@@ -1,0 +1,14 @@
+
+
+
+main{
+    display: grid;
+    grid-template-columns:auto auto ;
+}
+
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(245, 236, 236);
+}
