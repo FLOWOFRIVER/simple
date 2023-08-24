@@ -1,14 +1,25 @@
 
 
-
-main{
+main {
     display: grid;
-    grid-template-columns:auto auto ;
+    grid-template-columns: auto auto;
 }
 
-
-div{
+div {
     height: 400px;
     width: 400px;
     background-color: rgb(245, 236, 236);
+}
+
+button {
+    width: 15%;
+    height: 7%;
+    margin: 1%;
+}
+
+h1 {
+    display: inline-block; /* or use "inline" if you want inline behavior */
+    border: solid black;
+    padding: 1%;
+    width: 7%;
 }
